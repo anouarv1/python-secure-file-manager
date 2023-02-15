@@ -1,4 +1,7 @@
 Secure File Manager Project
+
+
+
 This is a secure file manager project using Python and Azure. The project allows users to upload, download, and delete files from a storage account in Azure Blob Storage. The app is built using the Flask web framework and uses the Azure Storage Python SDK to interact with the storage account.
 
 Features
@@ -24,6 +27,7 @@ Set up user authentication and authorization in Azure Active Directory. This inc
 Run the app using flask run. The app should be accessible at http://localhost:5000.
 
 Usage
+
 To use the secure file manager project, follow these steps:
 
 Log in to the app using your Azure AD credentials. Depending on your role, you may be able to upload, download, and delete files.
@@ -37,6 +41,7 @@ To download a file, click the file name in the file list. The file will be downl
 To delete a file, click the "Delete" button next to the file name. You will be prompted to confirm the deletion.
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 Contributions
